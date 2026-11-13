@@ -1,0 +1,28 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated audio and temporary files
+*.mp3
+*.wav
+*.m4a
+*.mp4
+temp/
